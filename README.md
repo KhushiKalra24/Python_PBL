@@ -1,1 +1,6 @@
-# Python_PBL
+#Python_PBL
+ Loan Prediction Project 
+This project focuses on building a Machine Learning-based Loan Prediction System that helps determine whether a loan application should be approved or rejected. The prediction is made using applicant information such as income, credit history, loan amount, education, marital status, and property area.
+The workflow starts with data preprocessing, where missing values are handled, categorical variables are encoded, and numerical features are scaled for better model performance. After that, Exploratory Data Analysis (EDA) is performed to understand patterns and relationships in the data, such as the impact of credit history and income on loan approval.
+Next, multiple classification algorithms like Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM) are trained on the dataset. These models are evaluated using metrics like accuracy, precision, recall, and F1-score to identify the best-performing model.
+Finally, the selected model is used to build a prediction system that takes user input and outputs whether the loan will be approved or not. This project demonstrates how machine learning can be applied in the banking sector to improve decision-making efficiency and reduce manual effort.
